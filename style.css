@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 200px;
+    width: 100%;
+    background-color:blue;
+} 
+#boxlogo{
+    width: 40%;
+    height:100%;
+    float: right;
+    background-color:blue;
+
+}
+#h1header{
+    float: left;
+    line-height: 200px;
+    padding-left: 35px;
+    background-color:blue;
+    color:rgb(255, 255, 255);
+ 
+}
+#logoimg{
+    float: right;
+   height: 95%;
+  border-radius: 70px 40px;
+  padding: 5px 5px;
+  
+}
+nav{
+    width: 60%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+ color: rgba(255, 255, 255, 0.884);
+ font-weight: bold;
+ font-size: 20px;
+ display:inline-block;
+}
+nav li{
+    display:inline-block ;
+    line-height: 190px;
+    width: 200px;
+    background-color:rgb(255, 0, 0);
+    text-align: center;
+    border-radius:  60px 40px;
+    height: 190px;
+    margin-top: 5px;
+}nav a:hover{
+
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius:  60px 40px;
+    font-size: 25px;
+
+}
+main{
+    width: 100%;
+    height: 540px;
+    background-color: rgb(0, 0, 0);
+    border-top:2px solid rgb(255, 0, 0);
+    animation: moh 10s infinite;
+}
+aside{
+    width: 40%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+}
+aside img{
+    width: 75%;
+}
+#h1as{
+    padding: 10px 0;
+    border-bottom: rgb(255, 0, 0) 3px solid;
+}
+#ar1{
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+#divar1{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(255, 255, 255);
+   color:rgb(255, 0, 0);
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%) ;
+    text-align: center;
+
+}
+#h1ardi{
+    padding: 15px 0;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#pdiv{
+    padding: 5px 2px;
+}
+#igon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#igon img{
+    width: 50px;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#igon img:hover{
+    width: 65px;
+    border-bottom: rgba(0, 0, 0, 0.959) 2px solid;
+}
+#end{
+    width: 100%;
+    height: auto;
+  
+}
+#end h1{
+    margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(255, 0, 0);
+}
+#ol1{
+  padding-right: 50px;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  padding-bottom: 20px;
+}
+#ol1 p{
+    color: blue;
+    padding-bottom: 5px;
+}
+@keyframes moh{
+    0%{
+        background-color:rgb(255, 255, 255)
+    }
+    50%{
+        background-color:rgb(0, 0, 2)
+    }
+    100%{
+       background-color:rgb(255, 0, 0)
+    }
+}
+@media only screen  and (min-width:1225px) and (max-width:1400px) {
+    #boxlogo{
+        width: 50%;
+    }
+}
+    @media only screen and  (max-width:1224px)  {
+        header{
+            height: auto;
+        }
+     
+        #boxlogo{
+            width: 100%;
+            text-align: center;
+        }
+        #logoimg{
+            height: 200px;
+            float: none;
+        }
+        #h1header{
+            float: none;
+            height: 100px;
+            line-height: 100px;
+            padding-left: 0px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(255, 0, 0);
+        }
+        nav{
+            width: 100%;
+        }
+        nav li{
+            margin-bottom: 5px;
+        }
+       
+
+}
+@media only screen and  (max-width:875px)  {
+    aside{
+        width: 100%;
+        height: 430px;
+    }
+    #auhv{
+        height: 300px;
+        width: 50%;
+    }
+    #ar1{
+        width: 100%;
+        height: 440px;
+        animation: moh 10s infinite;
+    }
+
+}
+@media only screen and  (max-width:632px)  {
+    nav li{
+        display: block;
+        width: 100%;
+        line-height: 50px;
+        height: 0%;
+        border-radius: 0px 0px;
+       
+    }
+
+}
+@media only screen and  (max-width:518px)  {
+    #ar1{
+        height: 280px;
+        animation: moh 10s infinite;
+    }
+    #divar1{
+        width: 322px;
+        height: 187px;
+    }
+    #auhv {
+        height: 186px;
+        width: 45%;
+    }
+    aside {
+        height: 321px;
+    }
+}
+@media only screen and  (max-width:400px)  {
+    #ar1 {
+        height: 236px;
+        animation: moh 10s infinite;
+    }
+    #divar1 {
+        width: 215px;
+        height: 152px;
+    }
+
+}
+
